@@ -593,7 +593,7 @@ void set_lighting(Shader shader, glm::vec3* pointLightPositions)
 	shader.setFloat("spotLight.constant", 0.0f);
 	shader.setFloat("spotLight.linear", 0.001f);
 	shader.setFloat("spotLight.quadratic", 0.0003f);
-	shader.setFloat("spotLight.cutOff", glm::cos(glm::radians(12.5f)));
-	shader.setFloat("spotLight.outerCutOff", glm::cos(glm::radians(15.0f)));
+	shader.setFloat("spotLight.cutOff", glm::cos(glm::radians(20.5f)));
+	shader.setFloat("spotLight.outerCutOff", glm::cos(glm::radians(35.0f)));
 
 }
